@@ -23,7 +23,7 @@ var ServiceChooser = React.createClass({
             React.createElement(
                 "h2",
                 { className: "ServiceChooserComponent-title" },
-                "Our services"
+                "Services"
             ),
             React.createElement(
                 "div",
@@ -62,7 +62,7 @@ var Service = React.createClass({
     render: function render() {
         return React.createElement(
             "p",
-            { className: this.state.active ? "active" : "", onClick: this.clickHandler },
+            { className: this.state.active ? "ServiceChooserComponent-service--active" : "ServiceChooserComponent-service", onClick: this.clickHandler },
             this.props.name,
             " ",
             React.createElement(

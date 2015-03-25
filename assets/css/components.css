@@ -21,41 +21,27 @@
   color: lightblue;
   text-align: center;
 }
-.ServiceChooserComponent-services p{
+.ServiceChooserComponent-service, .ServiceChooserComponent-service--active{
   display: block;
-    padding: 15px 20px;
-    background-color: #F8F8F8;
-    color: #7B8585;
-    margin-bottom: 3px;
-    position: relative;
-    cursor: pointer;
-    transition: 0.3s;
+  padding: 15px 20px;
+  background-color: #F8F8F8;
+  color: #7B8585;
+  margin-bottom: 3px;
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s;
 }
-
-#services p b{
-    position: absolute;
-    right: 28px;
-    line-height: 16px;
-    width: 100px;
-    color: #808787;
-    text-align: right;
+.ServiceChooserComponent-service:hover {
+  background-color:#d8f2f1;
 }
-
-#services p:hover{
-    background-color:#d8f2f1;
+.ServiceChooserComponent-service--active {
+  color:#fff;
+  background-color:#41c7c2;
 }
-
-#services p.active{
-    color:#fff;
-    background-color:#41c7c2;
-}
-
-#services p.active b{
-    color: #fff;
-}
-
-#total{
-    background: none !important;
-    cursor: default !important;
-    padding-top: 10px !important;
+.ServiceChooserComponent-total{
+  background: rgba(0,0,0,.5);
+  cursor: default;
+  color: #fff;
+  text-shadow: 0 0 3px #000;
+  padding: 20px;
 }

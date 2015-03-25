@@ -17,7 +17,7 @@ var ServiceChooser = React.createClass({
 
         return (
             <div className="ServiceChooserComponent">
-                <h2 className="ServiceChooserComponent-title">Our services</h2>
+                <h2 className="ServiceChooserComponent-title">Services</h2>
                 <div className="ServiceChooserComponent-services">
                     {services}
                     <p className="ServiceChooserComponent-total">Total <strong>${this.state.total.toFixed(2)}</strong></p>
@@ -41,7 +41,7 @@ var Service = React.createClass({
 
     render: function(){
         return  (
-            <p className={ this.state.active ? 'active' : '' } onClick={this.clickHandler}>
+            <p className={ this.state.active ? 'ServiceChooserComponent-service--active' : 'ServiceChooserComponent-service' } onClick={this.clickHandler}>
                 {this.props.name} <strong>${this.props.price.toFixed(2)}</strong>
             </p>
         );
