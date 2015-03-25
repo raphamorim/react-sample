@@ -1,0 +1,20 @@
+html {
+  background:#2b3e50;
+  font: normal 300 16px "Open Sans", helvetica, sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    width: 820px;
+}
+
+body>h1, h2 {
+    text-align: center;
+    color: #FFF;
+}
+
+body>h2 {
+    background: #5c98cd;
+    padding: 5px;
+    width: auto;
+}

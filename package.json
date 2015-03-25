@@ -1,0 +1,25 @@
+{
+  "name": "device-component",
+  "version": "1.0.0",
+  "description": "A component to simulate a device layout",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raphamorim/device-container.git"
+  },
+  "author": "Raphael Amorim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raphamorim/device-container/issues"
+  },
+  "homepage": "https://github.com/raphamorim/device-container",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-babel": "^4.0.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-livereload": "^3.8.0"
+  }
+}
